@@ -1,0 +1,26 @@
+.navbar-light .navbar-brand {
+     color: rgba(f,f,f,.9); 
+}
+#navbarSupportedContent .collapse .navbar-collapse{
+    justify-content: flex-end;
+  }
+
+  .mr-auto, .mx-auto {
+    margin-left: auto!important;
+}
+.mr-auto, .mx-auto {
+    margin-right: 0!important;
+}
+
+.recent_posts:focus, .recent_posts:hover {
+    background-color: aliceblue;
+    height: 80px;
+}
+
+.side_bar{
+    background-color: aqua;
+}
+
+.row{
+    margin-bottom: 15px;
+}
