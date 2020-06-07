@@ -19,10 +19,11 @@
 
 .side_bar{
     background-color: aqua;
+    margin-bottom: 15px;
 }
 
 .row{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .footer{
@@ -30,7 +31,7 @@
     height: 45px;
     background-color: black;
     bottom: 0;
-    position: absolute;
+    position: fixed;
 width: 100%;
 }
 
