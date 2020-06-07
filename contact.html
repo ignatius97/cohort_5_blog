@@ -10,8 +10,69 @@
     
     
 </head>
+
+<style>
+    #contact_card{
+        box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+        padding: 30px;
+    }
+    input{
+        padding: 5px;
+        width: 100%;
+    }
+    button{
+        float: right;
+        margin-top: -13px;
+    }
+</style>
+
 <body>
     <div w3-include-html="include/nav.html"></div>
+
+<br/>
+<div class="container">
+    <h2>Contact Us</h2>
+</div>
+    <div class="container" id="contact_card">
+        <div class="row">
+            <div class="col-6">
+                <label>Name</label>
+                <br/>
+                <input type="text" placeholder="Your Name">
+            </div>
+            <div class="col-6">
+                <label>Email</label>
+                <br/>
+                <input type="email" placeholder="Your Email">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <label>Subject</label>
+                <br/>
+                <input type="text" placeholder="Please Enter a Subject">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <textarea style="width:100%; " rows="6" placeholder="Message"></textarea>
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-outline-primary">Post</button>
+
+    </div>
+
+
+
+    <div class="footer" >
+        
+        &nbsp;&nbsp;
+        <small style="font-family: Bradley Hand ITC" >Made by Ignatius coop ||</small>
+        <small >© 2020 </small>
+
+</div>
 
     <script src="bootstrap/js/jquery-3.5.1.js"></script>
     <script src="bootstrap/js/popper.js"></script>
